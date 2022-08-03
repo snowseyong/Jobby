@@ -1,0 +1,328 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.jus-content-between {
+    justify-content: space-between;
+}
+
+.header-nav .welcome {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    background-color: #f3f3f3;
+    color: rgb(139, 133, 133);
+}
+
+.d-flex {
+    display: flex;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+select,
+option {
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    background-color: transparent;
+}
+
+.header-nav .welcome li {
+    padding-left: 1.2vw;
+    padding-right: 1.2vw;
+    border-left: 0.5px solid rgb(237, 229, 229);
+    border-right: 0.5px solid rgb(237, 229, 229);
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    text-align: center;
+}
+
+.header-nav .welcome img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.header-nav .welcome .avt {
+    color: black;
+}
+
+.header-nav .nav {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 0.2vw;
+    padding-bottom: 0.2vw;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+
+.text-transform {
+    text-transform: uppercase;
+}
+
+.header-nav .nav .menu {
+    margin-top: 0.8vw;
+    margin-bottom: 0.8vw;
+}
+
+.header-nav .nav li {
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+
+.header-nav .nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.3vw;
+}
+
+.post-a-job {
+    padding-top: 0.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.post-a-job a {
+    font-size: 1.3vw;
+    background-color: rgba(22, 138, 200, 0.714);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+}
+
+.header-nav .nav a:hover {
+    color: rgba(22, 138, 200, 0.714);
+    text-decoration: none;
+}
+
+.header-nav .nav .logo img {
+    border-radius: 50%;
+    width: 2.8vw;
+    height: 2.8vw;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: rgba(22, 138, 200, 0.714);
+}
+
+.header-nav .nav .name {
+    margin-left: 0.5vw;
+}
+
+.header-nav .nav .logo {
+    margin-top: 0.8vw;
+    margin-bottom: 0.8vw;
+}
+
+.header-nav .nav .name .name-main {
+    font-size: 1.5vw;
+}
+
+.header-nav .nav .name .text-name {
+    font-size: 0.8vw;
+    margin-top: -0.5vw;
+    color: rgba(22, 138, 200, 0.714);
+}
+
+.find-job {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-size: 1.3vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1vw;
+    background-color: #242424;
+    color: #fff;
+}
+
+.content {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
+
+
+
+/* footer */
+
+.footer {
+    background-color: #242424;
+}
+
+.footer .footer-top {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    width: 100%;
+}
+
+.footer .footer-top .left .des-top {
+    color: #fff;
+    font-size: 1.2vw;
+}
+
+.footer .footer-top .left .des-bottom {
+    color: gray;
+    font-size: 1vw;
+    margin-top: 5px;
+}
+
+.footer .footer-top .left .des-bottom i {
+    color: #54a6d6;
+}
+
+.footer .footer-top .right {
+    background-color: #fff;
+    border-radius: 0.3vw;
+    -webkit-border-raius: 0.2vw;
+    -moz-border-radius: 0.3vw;
+    -ms-border-radius: 0.3vw;
+    -o-border-radius: 0.3vw;
+    -webkit-border-radius: 0.3vw;
+    padding: 0.5vw;
+}
+
+.footer .footer-top input {
+    font-size: 1.4vw;
+    border: none;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+}
+
+.footer .footer-top button {
+    background-color: #54a6d6;
+    font-size: 1.4vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    border: none;
+    border-radius: 0.3vw;
+    -webkit-border-radius: 0.3vw;
+    -moz-border-radius: 0.3vw;
+    -ms-border-radius: 0.3vw;
+    -o-border-radius: 0.3vw;
+    color: #fff;
+}
+
+hr {
+    display: block;
+    height: 0.5px;
+    border: 0;
+    border-top: 0.5px solid rgb(210, 207, 207);
+    padding: 0;
+}
+
+.footer-content {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    margin-top: 2vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+}
+
+.footer-content .item {
+    width: 30vw;
+    position: relative;
+    margin: 1vw;
+    font-size: 1.1vw;
+}
+
+.footer-content .item .img {
+    background-color: #54a6d6;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 3.4vw;
+    height: 3.4vw;
+    text-align: center;
+}
+
+.footer-content .item .name {
+    margin-left: 0.5vw;
+    margin-top: -0.2vw;
+}
+
+.footer-content .item .name-main {
+    font-size: 2vw;
+    color: #fff;
+}
+
+.footer-content .item .text-name {
+    font-size: 1vw;
+    color: #54a6d6;
+    margin-top: -0.5vw;
+}
+
+.footer-content .item .ct {
+    color: gray;
+    font-size: 1vw;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+}
+
+.footer-content .item .contact span {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    color: gray;
+}
+
+.footer-content .item .tit {
+    color: #fff;
+    font-size: 1vw;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+}
+
+.footer-content .item .detail {
+    color: gray;
+    font-size: 1vw;
+}
+
+.footer .coppy-right {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    width: 100%;
+    color: gray;
+    font-size: 1vw;
+}
+
+.footer .coppy-right .left span {
+    color: #54a6d6;
+}
+
+.footer .coppy-right .right {
+    color: #fff;
+}
