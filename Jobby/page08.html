@@ -16,7 +16,10 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
-
+    <script src="../Jobby/assets/js/page08.js"></script>
+    
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+        <script type=”text/javascript” src=”http://code.jquery.com/jquery-2.0.3.min.js”></script>
 
 
 
@@ -113,7 +116,220 @@
                     Home/Find Jobs Grid
                 </p>
             </div>
-            <div class="content">
+            <div class="content ">
+                <div class="left">
+                    <div class="avt-infor">
+                        <div class="img">
+                            <img src="../Jobby/assets/img/hyunjinbaby.jpg" alt="hyunjin" width="40%">
+                        </div>
+                        <p class="text-bold name">Hwang HyunJin</p>
+                        <p class="color-gray">Doctor</p>
+                        <p>Experience Level : <span class="color-gray">5 years</span></p>
+                       
+                    </div>
+                    <div class="btn d-flex jus-content-between text-bold">
+                          <button>
+                            Contact 
+                          </button>
+                          <button>
+                            Message
+                          </button>
+                    </div>
+                    <div class="website">
+                        <p>Websites:</p>
+                        <p><a href="#"><i class="fa-solid fa-globe"></i> www.yoursite.com</a></p>
+                        <p><a href="#"><i class="fa-solid fa-pen-to-square"></i> www.blogsite.com</a></p>
+                    </div>
+                    <div class="rating d-flex jus-content-between">
+                        <p>Rating:</p>
+                        <div class="star">
+
+                        
+                            <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> <span>4.9</span> </p>
+                        </div>
+                    </div>
+                    <div class="Location">
+                        <div class="d-flex jus-content-between">
+                            <p>Location:</p>
+                            <p><i class="fa-solid fa-location-dot"></i><span class="color-gray">India</span></p>
+                        </div>
+                        <div class="maps">
+
+                        </div>
+                        <div class="d-flex jus-content-between">
+                            <p>Email:</p>
+                            <p>Tuyetanhgd@gmail.com</p>
+                        </div>
+                        <div class="d-flex jus-content-between">
+                            <p>Phone:</p>
+                            <p>0368917001</p>
+                        </div>
+                        <div class="d-flex jus-content-between">
+                            <p>Age:</p>
+                            <p>22</p>
+                        </div>
+
+                    </div>
+                    <div class="contact">
+    <p class="text-bold" style="margin-bottom:0.7vw">Contact social account</p>
+    <p class="social"><span class="fb"><i class="fa-brands fa-facebook-f"></i></span><a href="#">Http://facebook.com/johndoe</a></p>
+    <p class="social"><span class="twitter"><i class="fa-brands fa-twitter"></i></span><a href="#">Http://twitter.com/johndoe</a></p>
+    <p class="social"><span class="in"><i class="fa-brands fa-linkedin-in"></i></span><a href="#">Http://linkedin.com/johndoe</a></p>
+    <p class="social"><span class="dri"><i class="fa-brands fa-dribbble"></i></span><a href="#">Http://dribbble.com/johndoe</a></p>
+    <p class="social"><span class="be"><i class="fa-brands fa-behance"></i></span><a href="#">Http://behance.net/johndoe</a></p>
+    <p class="social"><span class="git"><i class="fa-brands fa-github"></i></span><a href="#">Http://github.com/johndoe</a></p>
+
+ 
+   
+                    </div>
+                </div>
+                
+                <div class="right">
+                    <div class="header d-flex">
+   
+      
+                        <button id="profile" class="profile" onclick=" getProfile();">Profiles</button>
+                        <button id="review" class="review" onclick=" getReview();">Review</button>
+                        <button id="appoint" class="appoint">Appointments</button>
+                        <span class="line">
+                
+                        </span>
+                    
+                   
+                     
+                </div>
+              
+                <div id="right-content-profile" style="">
+               <div class="right-content" >
+                <div class="About box">
+                    <div class="tt">
+                        <p class="text-bold">About</p>
+                    </div>
+                    <div class="detail">
+                        <p>
+                          
+                            
+                            Event flow
+                            Consider the situation when two event targets participate in a tree. Both have event listeners registered on the same event type, say "click". When the user clicks on the inner element, there are two possible ways to handle it:
+                            
+                          
+                            According to the W3C, events go through three phases when an event target participates in a tree:
+                            
+                            The capture phase: the event travels down from the root event target to the target of an event
+                            The target phase: the event travels through the event target
+                            The bubble phase (optional): the event travels back up from the target of an event to the root event target. The bubble phase will only occur for events that bubble (where event.bubbles == true)
+                            You can find a visualization of this event flow at https://domevents.dev  
+                        </p>
+                    </div>
+                </div>
+              
+                <div class="Quality box">
+                    <div class="tt">
+                       <p class="text-bold">Qualifications</p>
+                    </div>
+                    <div class="btn">
+                        <button>English</button>
+                        <button>Vietnamese</button>
+                        <button>Korean</button>
+                    </div>
+                </div>
+               </div>
+               </div>
+               <div id="right-content-review" style="display:none">
+
+   <div class="right-content"  >
+                <div class="About box">
+                    <div class="tt d-flex jus-content-between">
+                        <p class="text-bold">Review</p>
+                        <button class="btn btn-primary">Add Review</button>
+                    </div>
+                    <div class="detail">
+                        <div class="image-slide d-flex jus-content-between ">
+
+                            <div class="item-img ">
+                                <div class="padding-item  ">
+                            
+                                        <div class="img-avt d-flex jus-content-between">
+    
+                                            <img class="cangiua" src="../Jobby/assets/img/hyunjinbaby.jpg" alt="hyunjin" width="40%">
+                                           <div class="des">
+                                            <p class="name text-bold">Hwang HyunJin</p>
+                                         
+                                            <div class="rating">
+                                               
+                                                <p>  <span class="">Rating</span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                                    <span class="level-rate">4.9</span>
+                                                </p>
+                                            </div>
+                                           </div>
+                                        </div>
+                                       
+                                        <div class="location">
+                                          
+                                        </div>
+                                     <div class="Descript">
+    React can be used as a base in the development of single-page, mobile, or server-rendered applications with frameworks like Next.js. However, React is only concerned with state management and rendering that state to the DOM, so creating React applications usually requires the use of additional libraries for routing, as well as certain client-side functionality.
+                                     </div>
+    
+                                   
+                                    
+                                </div>
+    
+                         
+                            </div>
+                           
+                           
+    
+    
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="detail">
+                        <div class="image-slide d-flex jus-content-between ">
+
+                            <div class="item-img ">
+                                <div class="padding-item  ">
+                            
+                                        <div class="img-avt d-flex jus-content-between">
+    
+                                            <img class="cangiua" src="../Jobby/assets/img/hyunjinbaby.jpg" alt="hyunjin" width="40%">
+                                           <div class="des">
+                                            <p class="name text-bold">Hwang HyunJin</p>
+                                         
+                                            <div class="rating">
+                                               
+                                                <p>  <span class="">Rating</span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                                    <span class="level-rate">4.9</span>
+                                                </p>
+                                            </div>
+                                           </div>
+                                        </div>
+                                       
+                                        <div class="location">
+                                          
+                                        </div>
+                                     <div class="Descript">
+    React can be used as a base in the development of single-page, mobile, or server-rendered applications with frameworks like Next.js. However, React is only concerned with state management and rendering that state to the DOM, so creating React applications usually requires the use of additional libraries for routing, as well as certain client-side functionality.
+                                     </div>
+    
+                                   
+                                    
+                                </div>
+    
+                         
+                            </div>
+                           
+                           
+    
+    
+                        </div>
+                    </div>
+                </div>
+              
+           
+               </div>
+               </div>
+                </div>
             
             </div>
 
@@ -247,6 +463,8 @@
 
             </div>
     </section>
+    <script type=”text/javascript” src=”http://code.jquery.com/jquery-2.0.3.min.js”></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <style>
         .slick-next:before,
         .slick-prev:before {
